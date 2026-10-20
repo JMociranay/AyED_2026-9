@@ -8,7 +8,7 @@ namespace ConsoleApplication2
 {
     class Program
     {
-        static void ContarRegresivo(int numero)
+        static void ContarHasta(int numero)
         {
             Console.WriteLine("conteo iniciado:");
 
@@ -27,7 +27,7 @@ namespace ConsoleApplication2
 
             if (numero > 0)
             {
-                ContarRegresivo(numero);
+                ContarHasta(numero);
             }
             else
             {
